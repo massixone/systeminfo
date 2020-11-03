@@ -140,7 +140,15 @@ MYCMD='swapon -s'
 echo -en "\n--> Command: [${MYCMD}]\n"; eval "$MYCMD"
 MYCMD='mount | column -t'
 echo -en "\n--> Command: [${MYCMD}]\n"; eval "$MYCMD"
+
 # LVM
+MYCMD='pvscan'
+echo -en "\n--> Command: [${MYCMD}]\n"; eval "$MYCMD"
+MYCMD='vgscan'
+echo -en "\n--> Command: [${MYCMD}]\n"; eval "$MYCMD"
+MYCMD='lvscan'
+echo -en "\n--> Command: [${MYCMD}]\n"; eval "$MYCMD"
+
 MYCMD='pvdisplay'
 echo -en "\n--> Command: [${MYCMD}]\n"; eval "$MYCMD"
 MYCMD='vgdisplay'
