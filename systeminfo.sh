@@ -37,7 +37,7 @@
 # CONFIGURATION
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #
-VERSION="1.0.6"
+VERSION="1.0.7"
 TMPARG=$0
 #BN=$(basename $0)
 BN=${TMPARG##*/}		# `basename` can be deprecated in some systems
